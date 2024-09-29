@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "Red Hat Display", sans-serif;
+    background-color: hsl(225, 100%, 94%);
+    background-image: url("../images/pattern-background-desktop.svg");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+header{
+    background-color: white;
+    width: 500px;
+    margin: auto;
+    margin-top: 70px;
+    border-radius: 15px;
+    padding-bottom: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+@media only screen and (max-width: 700px){
+    header{
+        width: 90%;
+        margin-top:50px;
+    }
+}
+/* start first section */
+header .first-img{
+    border-radius: 15px 15px 0px 0px;
+    width: 100%;
+}
+/* end first section */
+
+
+/* start second section */
+.second-section{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+}
+@media only screen and (max-width: 700px){
+    .second-section{
+        width: 85%;
+    }
+}
+.second-section h3{
+    font-size: 30px;
+    font-weight: 900;
+}
+@media only screen and (max-width:700px){
+    .second-section h3{
+        font-size: 25px;
+    }
+}
+.second-section p{
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 20px;
+    color: darkgray;
+}
+@media only screen and (max-width:700px){
+    .second-section p{
+        font-size: 14px;
+    }
+}
+/* end second section */
+
+/* start third section */
+.third-section{
+    background-color: #f8f9fe;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.third-section .first-div{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+@media screen and (max-width:700px) {
+    .third-section .first-div{
+        padding: 5px;
+        font-size: 13px;
+    }
+}
+.third-section .second-div{
+    display: inline-flex;
+    flex-direction: column;
+}
+.second-div{
+    margin-left:15px ;
+}
+.second-div span:nth-of-type(1){
+    font-weight: 900;
+}
+.third-section a{
+    margin-right: 15px;
+    font-weight: 900;
+    color: hsl(245, 75%, 52%);
+}
+@media only screen and (max-width:700px){
+    .third-section a{
+        font-size: 13px;
+    }
+}
+.third-section a:hover{
+    color: #766cf1;
+    text-decoration: none;
+}
+/* end third section */
+
+
+/* start last section */
+.last-section .last-div{
+    margin-top: 20px;
+}
+.last-section button{
+    border: none;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 50px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    box-shadow: rgba(59, 59, 213, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+@media only screen and (max-width:700px){
+    .last-section button{
+        padding: 15px 40px;
+        font-size: 15px;
+        border-radius: 10px;
+    }
+}
+.last-section button:hover{
+    background-color: #766cf1;
+}
+.last-section .last{
+    text-decoration: none;
+    font-weight: 900;
+    color: darkgray;
+}
+.last-section .last:hover{
+    color: black;
+}
+/* end last section */
